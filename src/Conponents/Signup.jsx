@@ -10,7 +10,8 @@ function Signup() {
   const [err, setErr] = useState("");
   const [resp, setResp] = useState("");
 
-  const url = "http://localhost:5000/api/register";
+  const url =
+    "https://forgot-password-with-magic-link.onrender.com/api/register";
   async function handleSubmit() {
     try {
       const res = await Axios.post(url, {

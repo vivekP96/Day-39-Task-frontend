@@ -12,7 +12,8 @@ function ResetPassword() {
 
   const [resp, setResp] = useState("");
 
-  const url = "http://localhost:5000/api/resetpassword/";
+  const url =
+    "https://forgot-password-with-magic-link.onrender.com/api/resetpassword/";
 
   function handleSubmit() {
     Axios.post(url + secondRoute, { pass1, pass2 })
