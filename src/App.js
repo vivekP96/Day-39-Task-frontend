@@ -1,3 +1,4 @@
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -7,7 +8,7 @@ import ResetPassword from "./Conponents/ResetPassword";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Routes>
         <Route
           path="/forgotpassword"
