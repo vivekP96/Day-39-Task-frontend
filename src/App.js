@@ -7,7 +7,7 @@ import ResetPassword from "./Conponents/ResetPassword";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Routes>
         <Route
           path="/forgotpassword"
