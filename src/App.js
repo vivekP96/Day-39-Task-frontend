@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Signup from "./Conponents/Signup";
 import ForgotPassword from "./Conponents/ForgotPassword";
 import ResetPassword from "./Conponents/ResetPassword";
